@@ -1,0 +1,33 @@
+.file-upload-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-image: url(C:\Users\dhars\Desktop\Re_Project\frontend\public\fileshare.jpg); /* Reference image from public directory */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Change text color if necessary for better visibility */
+  }
+  
+  .file-input {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.8); /* Optional: to make the text readable */
+  }
+  
+  .file-actions button {
+    margin-left: 5px;
+  }
+  
